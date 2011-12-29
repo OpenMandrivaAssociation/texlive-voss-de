@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-de.doc.tar.x
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive voss-de package.
@@ -42,7 +40,6 @@ TeXLive voss-de package.
 %doc %{_texmfdistdir}/doc/generic/voss-de/mathCol/mathCol.ltx
 %doc %{_texmfdistdir}/doc/generic/voss-de/mathCol/mathCol.pdf
 %doc %{_texmfdistdir}/doc/generic/voss-de/mathCol/mathCol.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,5 +50,3 @@ TeXLive voss-de package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

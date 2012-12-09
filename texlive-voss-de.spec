@@ -50,3 +50,17 @@ TeXLive voss-de package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
++ Revision: 757479
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
++ Revision: 719895
+- texlive-voss-de
+- texlive-voss-de
+- texlive-voss-de
+- texlive-voss-de
+

@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-voss-de
 Version:	20111104
-Release:	5
+Release:	6
 Summary:	TeXLive voss-de package
 Group:		Publishing
 URL:		http://tug.org/texlive

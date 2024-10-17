@@ -9,7 +9,7 @@ Version:	20111104
 Release:	12
 Summary:	TeXLive voss-de package
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-de.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/voss-de.doc.tar.xz
